@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: ember-crm_development
+
+test:
+  adapter: postgresql
+  database: ember-crm_test
+
+
