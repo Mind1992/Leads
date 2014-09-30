@@ -1,10 +1,10 @@
 App.Router.reopen
-	location: 'auto'
 	rootUrl: '/'
+	location: 'auto'
 
 App.Router.map ->
 	@resource 'leads', path: '/'
-	
+
 
 
 
