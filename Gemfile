@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+gem 'ffaker'
 
 group :development do
   gem 'better_errors'
