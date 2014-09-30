@@ -3,7 +3,8 @@ App.Router.reopen
 	location: 'auto'
 
 App.Router.map ->
-	@resource 'leads', path: '/'
+	@resource 'leads', path: '/', ->
+		@resource 'lead', path: '/leads/:id'
 
 
 
