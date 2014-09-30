@@ -10,6 +10,7 @@ gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
 gem 'ffaker'
+gem 'puma'
 
 group :development do
   gem 'better_errors'
