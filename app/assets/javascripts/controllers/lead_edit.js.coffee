@@ -1,4 +1,4 @@
-App.LeadEditController = Ember.ObjectController.extend
+App.LeadEditController = Ember.ObjectController.extend(
 
 	actions:
 
@@ -9,3 +9,4 @@ App.LeadEditController = Ember.ObjectController.extend
 		cancel: ->
 			@get('model').rollback()
 			@transitionToRoute 'lead'
+)
