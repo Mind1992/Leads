@@ -12,3 +12,6 @@ fullName: ( ->
 
 App.Lead.reopenClass
 	STATUSES: ['new', 'in progress', 'closed', 'bad']
+
+	valid: (fields) ->
+		fields.firstName and fields.lastName
