@@ -1,5 +1,9 @@
+outlet
+
 article#lead
-	h1= model.fullName
+	h1 
+		model.fullName
+		link-to 'edit' 'lead.edit' model classNames='edit'
 
 	p
 		' Name:
@@ -25,3 +29,7 @@ article#lead
 	
 	p
 		input type='submit' value='Save Changes' click='saveChanges'
+		if showUnsavedMessage
+			.unsaved unsaved changes
+		if isSaving
+			.saving saving...
