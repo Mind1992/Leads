@@ -1,12 +1,12 @@
 App.LeadEditController = Ember.ObjectController.extend(
 
-	actions:
+  actions:
 
-		saveChanges: ->
-			@get('model').save().then =>
-				@transitionToRoute 'lead'
+  saveChanges: ->
+    @get('model').save().then =>
+      @transitionToRoute 'lead'
 
-		cancel: ->
-			@get('model').rollback()
-			@transitionToRoute 'lead'
+  cancel: ->
+    @get('model').rollback()
+      @transitionToRoute 'lead'
 )
