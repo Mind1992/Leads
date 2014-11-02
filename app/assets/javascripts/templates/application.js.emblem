@@ -1,10 +1,10 @@
 header
-	article
-		.logo
-			h1
-				a href="#" Ember CRM
+  article
+    .logo
+      h1
+        a href="#" Ember CRM
 
 section#main
-	= outlet
+  = outlet
 
 footer

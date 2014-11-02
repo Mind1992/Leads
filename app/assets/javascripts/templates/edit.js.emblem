@@ -1,22 +1,22 @@
 article#lead
-	h1
-		model.fullName
+  h1
+    model.fullName
 
-	form
-		fieldset
-			dl
-				dt: label First Name:
-				dd: view Ember.TextField value=model.firstName
+  form
+    fieldset
+      dl
+        dt: label First Name:
+        dd: view Ember.TextField value=model.firstName
 
-			dl
-				dt: label Last Name:
-				dd: view Ember.TextField value=model.lastName
+      dl
+        dt: label Last Name:
+        dd: view Ember.TextField value=model.lastName
 
-			dl
-				dt: label Phone:
-				dd: view Ember.TextField value=model.phone
+      dl
+        dt: label Phone:
+        dd: view Ember.TextField value=model.phone
 
-			fieldset.actions
-				input type='submit' value='Save Changes' click="saveChanges"
-				a.cancel href="#" click="cancel" cancel
+      fieldset.actions
+        input type='submit' value='Save Changes' click="saveChanges"
+        a.cancel href="#" click="cancel" cancel
 
