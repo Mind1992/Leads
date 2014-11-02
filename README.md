@@ -1,6 +1,6 @@
 # Leads
-## About
-This is an employee tracker app that allows to add new employees to the system, update and delete them. For this project I've been using Ruby on Rails framework and Ember.js.
+
+This is a single-page-application that allows to add new employees to the system, update and delete them. For this project I used Ruby on Rails, EmberJS , CoffeScript, Emblem, SAAS.
 
 ## Setup
 Clone this repository in your terminal:
